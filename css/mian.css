@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/background.jpeg);
+    background-attachment: fixed;
+}
+.home .navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.home .navbar ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.home .navbar{
+    background-color: rgba(97, 181, 187,0.5);
+}
+.home .navbar ul .logo{
+    margin: 0px 660px 0px 0px;
+   
+}
+.home .navbar ul li {
+    padding: 10px;
+    margin: 15px 40px 0px 0px;
+    
+}
+.home .intro {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.home .intro h1{
+text-align: right;
+margin: 15px 0px 20px 10px;
+font-size: 50px;
+}
+.home .intro p{
+    width: 450px;
+    text-align: right;
+    font-size: 20px;
+    
+}
+.home .intro .def{
+    margin: 150px 50px 0px 300px;
+    text-align: right;
+    padding: 10px;
+    height: 283px;
+    color: white;
+    background-color: rgba(97, 181, 187,0.5);
+    border-radius: 30px;
+}
+.home .intro .def button{
+   margin: 55px 0px 10px 10px;
+   padding: 9px 30px;
+   border-radius: 10px;
+   background-color: rgb(50, 113, 116);
+   color: aliceblue;
+   
+   
+}
+.home .intro .brain{
+    margin: 75px -190px 0px 0px;
+    /*background-color: rgba(97, 181, 187,0.5);*/
+    border-radius: 20px;
+}
+.home .roya {
+    background-color: rgba(97, 181, 187,0.5) ;
+    width: 45%;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 30px;
+}
+.home .todo {
+    background-color: rgba(97, 181, 187,0.5) ;
+    width: 45%;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 30px;
+}
+.home .who {
+    background-color: rgba(97, 181, 187,0.5) ;
+    width: 45%;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+
+}
+.parent1{
+    display: flex;
+    text-align: right;
+}
+.parent2{
+    display: flex;
+    text-align: right;
+    flex-direction: row-reverse;
+    margin: 20px 0px 0px 0px ;
+    
+    
+}
+.home .parent2 .who h1{
+    color: rgb(226, 147, 43);
+    padding: 10px;
+}
+.people{
+    margin: 20px 125px 0px 50px ;
+}
+.home .service{
+    text-align: center;
+    font-size:80px;
+    color: rgb(226, 147, 43);
+
+}
+.home .services div{
+    text-align: center;
+    width: 15%;
+    background-color: rgba(97, 181, 187,0.5) ;
+    border-radius: 20px;
+    padding: -10px;
+    margin: 18px 67px;
+   
+}
+.home .services{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.home .ersal{
+    background-color: rgba(97, 181, 187,0.5) ;
+    width: 50%;
+    padding: 40px 0px 20px 21px;
+    border-radius: 30px;
+    margin: 0px 0px 0px 70px;
+    
+}
+.twasol{
+    text-align: center;
+    margin: 20px;
+    color: rgb(226, 147, 43);
+    font-size:80px;
+}
+#right{
+    text-align: right;
+}
+#tab{
+    
+}
+.location{
+    background-color: rgba(97, 181, 187,0.5) ;
+    width: 30%;
+    text-align: right;
+    margin: 0px 20px 0px 70px;
+    border-radius: 30px;
+    padding: 30px 30px 0px 0px;
+}
+#papa{
+    display: flex;
+    
+    
+}
+#lef{
+    margin: 0px 0px 0px 200px;
+    font-size: 20px;
+    
+    
+}
+#tab{
+    margin: 0px 0px 0px 15px;
+}
+.parent4{
+    background-color: rgb(248, 249, 250);
+    width: 45%;
+    text-align: right;
+    margin: 10px;
+    padding: 20px;
+    border-top: 3px solid rgb(1, 184, 220);
+    border-bottom: 3px solid rgb(1, 184, 220);
+}
+.prt1{
+    background-color: rgb(248, 249, 250);
+    width: 30%;
+    text-align: right;
+    margin: 10px 80px 10px 10px;
+    padding: 20px;
+    border-top: 3px solid rgb(1, 184, 220);
+    border-bottom: 3px solid rgb(1, 184, 220);
+}
+.home  .parent2 .prt1 .prt11 h4 {
+    font-size: 20PX;
+    margin: 5PX;
+    padding: 5PX;
+}
+
+
+.home  .parent2 .parent4 .prt2 .prt21 input {
+    border: 1PX solid #d1d3d6;
+    border-radius: 4px;
+    width: 255PX;
+    margin: 0px 0px 0px 0px;
+    height: 40px}
+    .hh{
+        display: flex;
+        margin: 0px 0px 0px 43px;
+    }
+    .mina{
+        margin: 0px 50px 0px 0px;
+    }
+    .home  .parent2 .parent4 .prt2 .prt22 input{
+        border: 1PX solid #d1d3d6;
+        border-radius: 4px;
+        width: 561PX;
+        margin: 0px 0px 0px 0px;
+        height: 40px
+
+    }
+    .home  .parent2 .parent4 .prt2 .prt23 input{
+        border: 1PX solid #d1d3d6;
+        border-radius: 4px;
+        width: 561PX;
+        margin: 0px 0px 0px 0px;
+        height: 40px
+    }
+    .up{
+        padding: 10px 25px;
+        border-radius: 4px;
+        border-color: transparent;
+        background-color: rgb(1, 184, 220);
+        margin: 20px;
+        color: white;
+        
+        
+    
+    }
